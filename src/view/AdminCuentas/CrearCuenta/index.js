@@ -76,7 +76,7 @@ const Perfil = ({recargaTable, setRecargaTable}) => {
         telefono: datosPerfil.telefono,
       }
   
-      const existeUsuario = await axios.get(`/usuarioTodo${datosCuenta.nombre_usr}`);
+      const existeUsuario = await axios.get(`/usuarioTodo/${datosCuenta.nombre_usr}`);
   
       if (!existeUsuario.data){
   
