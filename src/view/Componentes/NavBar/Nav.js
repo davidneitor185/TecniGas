@@ -80,7 +80,7 @@ const Nav = ({ tipo }) => {
           >
             <MenuItem icon={<Img />}>
               <div className="menu-tittle">
-                <h2>TecniGas</h2>
+                <h2 className="tittle-tecnigas">TecniGas</h2>
               </div>
             </MenuItem>
           </Menu>
