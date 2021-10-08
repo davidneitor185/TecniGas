@@ -141,7 +141,7 @@ const Nav = ({ tipo }) => {
                 </MenuItem>
               </SubMenu>
             )}
-            {validaRol(user.user.rol, "Agenda") && (
+            /*{validaRol(user.user.rol, "Agenda") && (
               <MenuItem
                 onClick={() => {
                   setActive({ ...inicial, agenda: <RiMapPinUserFill /> });
@@ -151,7 +151,7 @@ const Nav = ({ tipo }) => {
               >
                 Agenda <Link to="/agenda" />
               </MenuItem>
-            )}
+            )}*/
             {validaRol(user.user.rol, "Devoluciones") && (
               <SubMenu
               title="Devoluciones"
