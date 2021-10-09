@@ -98,10 +98,10 @@ const Compra = () => {
             guardarDetalles(id);
             notify("Compra regitrada con exito", "", "info");
             seteo();
-          } else notify("Ha susedido un problema intente mas tarde","", "error");
+          } else notify("Ha sucedido un problema intente mas tarde","", "error");
         });
     } catch (error) {
-      notify("Ha susedido un problema intente mas tarde, error: ", error, "error")
+      notify("Ha sucedido un problema intente mas tarde, error: ", error, "error")
     }
   };
 
