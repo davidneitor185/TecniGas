@@ -59,13 +59,13 @@ const Movimiento = ({ recarga, setRecarga }) => {
             notify("Movimiento realizado con exito", "", "info");
           } else {
             seteo();
-            notify("Ha susedido un problema intente mas tarde", "", "error");
+            notify("Ha sucedido un problema intente mas tarde", "", "error");
           }
         });
       } else notify("No hay stock suficiente de:", produ.nombre_pro, "error");
     } catch (err) {
       seteo();
-      notify("Ha susedido un problema intente mas tarde, error", err, "error");
+      notify("Ha sucedido un problema intente mas tarde, error", err, "error");
     }
   };
 
